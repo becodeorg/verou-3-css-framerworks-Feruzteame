@@ -1,16 +1,23 @@
+$color: #516beb;
+
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   section {
     width: 80%;
-    padding: 2%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2%;
     grid-auto-rows: auto;
-    margin-top: 20px;
+    margin-left: 2%;
+    margin-top: 2%;
     text-align: center;
   }
+
   .btn:hover {
-    background-color: blue;
+    background-color: $color;
     color: white;
     border-radius: 100px;
   }
@@ -19,5 +26,25 @@ body {
     height: 100px;
     margin-left: 30%;
     margin-top: 5%;
+  }
+  .card {
+    box-shadow: 0 0 10px 2px lightblue;
+    padding: 5%;
+    width: auto;
+    min-width: 18rem;
+  }
+  hr {
+    width: 70px;
+    margin-left: 30%;
+  }
+  h1 {
+    text-align: center;
+    color: $color;
+  }
+  p {
+    height: 100px;
+  }
+  h5 {
+    color: $color;
   }
 }

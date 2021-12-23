@@ -1,18 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body section {
   width: 80%;
-  padding: 2%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2%;
   grid-auto-rows: auto;
-  margin-top: 20px;
+  margin-left: 2%;
+  margin-top: 2%;
   text-align: center;
 }
 
 body .btn:hover {
-  background-color: blue;
+  background-color: #516beb;
   color: white;
   border-radius: 100px;
 }
@@ -22,5 +27,31 @@ body .img {
   height: 100px;
   margin-left: 30%;
   margin-top: 5%;
+}
+
+body .card {
+  -webkit-box-shadow: 0 0 10px 2px lightblue;
+          box-shadow: 0 0 10px 2px lightblue;
+  padding: 5%;
+  width: auto;
+  min-width: 18rem;
+}
+
+body hr {
+  width: 70px;
+  margin-left: 30%;
+}
+
+body h1 {
+  text-align: center;
+  color: #516beb;
+}
+
+body p {
+  height: 100px;
+}
+
+body h5 {
+  color: #516beb;
 }
 /*# sourceMappingURL=style.css.map */
