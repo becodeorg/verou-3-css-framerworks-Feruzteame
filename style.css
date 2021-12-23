@@ -26,7 +26,7 @@ body .img {
   width: 100px;
   height: 100px;
   margin-left: 30%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 body .card {
@@ -39,12 +39,13 @@ body .card {
 
 body hr {
   width: 70px;
-  margin-left: 30%;
+  margin-left: 35%;
 }
 
 body h1 {
   text-align: center;
   color: #516beb;
+  margin-top: 2%;
 }
 
 body p {
