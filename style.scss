@@ -39,11 +39,6 @@ body {
     width: 70px;
     margin-left: 35%;
   }
-  h1 {
-    text-align: center;
-    color: $color;
-    margin-top: $margin;
-  }
   p {
     height: 100px;
   }
@@ -73,11 +68,6 @@ body {
         padding: 1%;
         width: 90%;
       }
-    }
-
-    .btn:hover {
-      background-color: $color;
-      color: white;
     }
     .img {
       margin-left: 40%;

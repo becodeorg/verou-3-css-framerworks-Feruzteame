@@ -42,12 +42,6 @@ body hr {
   margin-left: 35%;
 }
 
-body h1 {
-  text-align: center;
-  color: #516beb;
-  margin-top: 2%;
-}
-
 body p {
   height: 100px;
 }
@@ -77,10 +71,6 @@ body h5 {
             box-shadow: none;
     padding: 1%;
     width: 90%;
-  }
-  body .btn:hover {
-    background-color: #516beb;
-    color: white;
   }
   body .img {
     margin-left: 40%;
