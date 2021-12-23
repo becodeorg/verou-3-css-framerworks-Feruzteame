@@ -55,4 +55,35 @@ body p {
 body h5 {
   color: #516beb;
 }
+
+@media only screen and (max-width: 768px) {
+  body .navbar {
+    display: none;
+  }
+  body section {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1/4;
+        grid-template-rows: 1/4;
+    grid-gap: 1%;
+    grid-auto-rows: auto;
+    margin-left: 5%;
+  }
+  body section .card {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 1%;
+    width: 90%;
+  }
+  body .btn:hover {
+    background-color: #516beb;
+    color: white;
+  }
+  body .img {
+    margin-left: 40%;
+  }
+}
 /*# sourceMappingURL=style.css.map */

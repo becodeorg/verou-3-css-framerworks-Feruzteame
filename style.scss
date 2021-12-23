@@ -51,3 +51,36 @@ body {
     color: $color;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    .navbar {
+      display: none;
+    }
+
+    section {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1/4;
+      grid-gap: 1%;
+      grid-auto-rows: auto;
+      margin-left: 5%;
+    }
+    section {
+      .card {
+        box-shadow: none;
+        padding: 1%;
+        width: 90%;
+      }
+    }
+
+    .btn:hover {
+      background-color: $color;
+      color: white;
+    }
+    .img {
+      margin-left: 40%;
+    }
+  }
+}
