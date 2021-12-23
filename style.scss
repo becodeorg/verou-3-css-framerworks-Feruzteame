@@ -1,0 +1,15 @@
+body {
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+    grid-auto-rows: 300px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .btn:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 100px;
+  }
+}
