@@ -5,6 +5,9 @@ $mainColor: white;
 $mainbackgroundcolor: red;
 $h6color: red;
 $h5color: rgba(11, 135, 139, 0.719);
+$footer-log-backgroundcolor: whitesmoke;
+$span-color: white;
+$logo-bk-color: darkslategray;
 
 * {
   margin: 0;
@@ -16,6 +19,7 @@ body {
       section {
         background-color: rgb(235, 233, 233);
         font-size: 15px;
+        font-family: Georgia, serif;;
       }
     .container{
       border: solid 1px rgb(238, 233, 233);
@@ -28,9 +32,8 @@ body {
       padding-bottom: 2%;
 
     }
-   
-    .logo {
-    background-color: whitesmoke;
+   .logo,  .discription {
+    background-color: $footer-log-backgroundcolor;
    }
   ul{
     list-style: none;
@@ -39,19 +42,11 @@ body {
     display: inline;
     margin: 1.5%;
   }
-
-  .discription {
-    height: 400px;
-    background-color: whitesmoke;
-  }
-  .person{
+.person{
     height: 350px;
-    width: 200px;
+    width: 300px;
   }
-  .navigation {
-    height: 100px;
-    background-color: white;
-  }
+  
   .part-3{
     height: 100px;
     width: 70px;
@@ -66,7 +61,7 @@ body {
   padding: 2%;
 }
 .footer{
-  background-color: whitesmoke;
+  background-color: $footer-log-backgroundcolor;
   text-align: center;
   padding: 2%;
 }
@@ -82,14 +77,14 @@ h2{
   border-radius: 50px;
 }
 .span{
-  color: white;
+  color: $span-color;
   border: solid 2px transparent;
   border-radius: 50px;
   padding: 10px;
   background-color: rgb(212, 209, 209);
 }
 .Logo{
-  background-color: darkslategray;
+  background-color: $logo-bk-color;
   padding: 10px;
   text-align: center;
 }
@@ -105,4 +100,38 @@ h6{
 }
 
 
+}
+@media only screen and(max-width: 780px) {
+
+  body{
+
+    section{
+      .overview, .more, .part-3{
+        display: none;
+      }
+      .person{
+       width: 400px;
+       height: 350px;
+       margin-top: 10%;
+      }
+      .row{
+        padding:10%;
+     }
+     .man, .span{
+          margin-top: 10px;
+          width: 150px;
+     }
+     li{
+     display: block;
+      margin: 5%;
+    }
+    .list{
+      li{
+        display: inline;
+        margin: 5%;
+      }
+    }
+    }
+  }
+  
 }

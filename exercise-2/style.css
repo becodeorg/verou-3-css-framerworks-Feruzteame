@@ -6,6 +6,7 @@
 body section {
   background-color: #ebe9e9;
   font-size: 15px;
+  font-family: Georgia, serif;
 }
 
 body .container {
@@ -20,7 +21,7 @@ body .row {
   padding-bottom: 2%;
 }
 
-body .logo {
+body .logo, body .discription {
   background-color: whitesmoke;
 }
 
@@ -33,19 +34,9 @@ body li {
   margin: 1.5%;
 }
 
-body .discription {
-  height: 400px;
-  background-color: whitesmoke;
-}
-
 body .person {
   height: 350px;
-  width: 200px;
-}
-
-body .navigation {
-  height: 100px;
-  background-color: white;
+  width: 300px;
 }
 
 body .part-3 {
@@ -107,5 +98,31 @@ body h5 {
 
 body h6 {
   color: red;
+}
+
+@media only screen and (max-width: 780px) {
+  body section .overview, body section .more, body section .part-3 {
+    display: none;
+  }
+  body section .person {
+    width: 400px;
+    height: 350px;
+    margin-top: 10%;
+  }
+  body section .row {
+    padding: 10%;
+  }
+  body section .man, body section .span {
+    margin-top: 10px;
+    width: 150px;
+  }
+  body section li {
+    display: block;
+    margin: 5%;
+  }
+  body section .list li {
+    display: inline;
+    margin: 5%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
