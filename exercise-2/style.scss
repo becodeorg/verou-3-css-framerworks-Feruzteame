@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+      section {
+        background-color: rgb(235, 233, 233);
+      }
+    .container{
+      border: solid 1px rgb(238, 233, 233);
+      background-color: white;
+    }
+    .row{
+      padding-left: 15%;
+      padding-right: 5%;
+     padding-top: 2%;
+     padding-bottom: 2%;
+
+    }
+   
+    .logo {
+    background-color: whitesmoke;
+   }
+  ul{
+    list-style: none;
+  }
+  li{
+    display: inline;
+    margin: 1.5%;
+  }
+
+  .discription {
+    height: 400px;
+    background-color: whitesmoke;
+  }
+  .person{
+    height: 100%;
+    width: 150px;
+  }
+  .navigation {
+    height: 100px;
+    background-color: white;
+  }
+  .part-3{
+    height: 100px;
+    width: 70px;
+  }
+  span{
+    color: rgb(212, 209, 209);
+  }
+.last{
+  text-align: center;
+  padding: 2%;
+}
+.footer{
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 2%;
+}
+h2{
+  text-align: center;
+  padding: 5%;
+}
+.more{
+  height: 200px;
+  width: 200px;
+}
+
+}
