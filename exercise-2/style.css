@@ -37,8 +37,8 @@ body .person {
 }
 
 body .part-3 {
-  height: 100px;
-  width: 70px;
+  height: 70px;
+  width: 50px;
 }
 
 body span {
@@ -97,7 +97,7 @@ body h6 {
   color: red;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 768px) {
   body section .overview, body section .more, body section .part-3 {
     display: none;
   }
