@@ -15,10 +15,7 @@ body .container {
 }
 
 body .row {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding: 2% 5% 2% 5%;
 }
 
 body .logo, body .discription {
